@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="thread" parallel="methods" thread-count="2">
+    <test name="multithread">
+        <!-- method在不用的线程下可以运行
+          thread-count代表了最大线程数
+          -->
+        <classes>
+            <class name="com.course.multiThread.MultiTestOnXml"></class>
+        </classes>
+
+    </test>
+
+</suite>

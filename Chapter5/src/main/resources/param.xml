@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="test">
+    <test name="param">
+        <classes>
+            <class name="com.course.groups.ParamterTest"></class>
+            <parameter name="name" value="zhangsan"/>
+            <parameter name="age" value="10"/>
+        </classes>
+
+    </test>
+
+
+</suite>
